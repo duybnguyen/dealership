@@ -30,7 +30,7 @@ public class UserInterface {
 
             switch (choice) {
                 case 1 -> processGetAllVehiclesRequest();
-                case 2 -> System.out.println("Thank you for shopping with us!");
+                case 2 -> System.out.println("\nThank you for shopping with us!");
                 default -> System.out.println("Invalid choice");
             }
         }
@@ -60,7 +60,7 @@ public class UserInterface {
     }
 
     public void displayMenu() {
-        System.out.println("\n Welcome to the Car Dealership!");
+        System.out.println("\nWelcome to the Car Dealership!");
         System.out.println("1. View all vehicles");
         System.out.println("2. Exit");
         System.out.print("Enter your choice: ");
